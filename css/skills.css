@@ -1,4 +1,61 @@
 .skills-ruby-img, .skills-react-img, .skills-redux-img, .skills-node-img, .skills-postgre-img, .skills-mongo-img, .skills-html-img, .skills-scss-img {
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.portfolio-links-row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-links-livesite {
+  color: orange;
+  background-color: black;
+  border: 5px;
+  border-radius: 5px;
+  border-style: groove;
+  padding: 3px;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+.portfolio-links-livesite:hover {
+  transform: scale(1.15);
+  color: black;
+  background-color: orange;
+}
+
+.portfolio-links-github {
+  color: orange;
+  background-color: black;
+  border: 5px;
+  border-radius: 5px;
+  border-style: groove;
+  padding: 3px;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+.portfolio-links-github:hover {
+  transform: scale(1.15);
+  color: black;
+  background-color: orange;
+}
+
+.contact-info-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact-info-link {
+  color: blueviolet;
+}
+.contact-info-div:hover, .contact-info-link:hover {
+  transform: scale(1.25);
+  color: blue;
 }
 
