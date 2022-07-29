@@ -5,6 +5,12 @@
   margin-bottom: .25rem;
 }
 
+.portfolio-pic {
+  border-radius: 50%;
+  border-style: groove;
+  height: 10rem;
+}
+
 .portfolio-header {
   display: flex;
   justify-content: center;
@@ -62,4 +68,8 @@
 }
 .btn btn-light btn-xl:hover {
   transform: scale(2);
+}
+
+.contact-info-phone-number {
+  margin-top: 2.5rem;
 }
