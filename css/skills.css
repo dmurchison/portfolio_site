@@ -8,7 +8,8 @@
 .portfolio-pic {
   border-radius: 50%;
   border-style: groove;
-  height: 10rem;
+  height: 160px;
+  width: 160px;
 }
 
 .portfolio-header {
