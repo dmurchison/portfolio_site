@@ -1,8 +1,10 @@
 /* Variables */
 
 
-.skills-ruby-img, .skills-react-img, .skills-redux-img, .skills-node-img, .skills-postgre-img, .skills-mongo-img, .skills-html-img, .skills-scss-img {
-  margin-bottom: .25rem;
+.skills-img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
 }
 
 .portfolio-pic {
