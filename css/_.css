@@ -8,6 +8,7 @@
 .portfolio-pic {
   border-radius: 50%;
   border-style: groove;
+  border-color: var(--light-blue);
   height: 160px;
   width: 160px;
 }
