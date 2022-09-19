@@ -1,8 +1,26 @@
+.headerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .skills-img {
   height: 100px;
   width: 100px;
   margin-bottom: 5px;
+}
+
+.myResume {
+  font-size: larger;
+  color: white;
+  transition: 325ms;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.myResume:hover {
+  transform: scale(1.015);
+  color: aqua;
 }
 
 .portfolio-pic {
