@@ -1,3 +1,15 @@
+  /* My Colors */
+
+:root {
+  --smoke: rgb(240, 240, 240);
+  --dark-smoke: rgb(35, 35, 40);
+  --carolinaBlue: rgb(25, 145, 205);
+  --navyBlue: rgb(10, 60, 105);
+  --casi: rgb()
+  --smokeyBG
+}
+
+
 .headerButtons {
   display: flex;
   justify-content: center;
@@ -12,15 +24,17 @@
 }
 
 .myResume {
-  font-size: larger;
+  font-size: 0.85rem;
+  border: 2px solid black;
+  border-radius: 10rem;
   color: white;
   transition: 325ms;
-  padding: 5px;
+  padding: 1.25rem 2.25rem;
   margin-bottom: 25px;
 }
 .myResume:hover {
   transform: scale(1.015);
-  color: aqua;
+  color: var(--carolinaBlue);
 }
 
 .portfolio-pic {
