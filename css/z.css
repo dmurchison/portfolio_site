@@ -1,3 +1,19 @@
+  /* My Colors */
+
+:root {
+  --offWhite: rgb(151, 149, 149);
+  --smoke: rgb(240, 240, 240);
+  --darkSmoke: rgb(35, 35, 40);
+  --carolinaBlue: rgb(25, 145, 205);
+  --navyBlue: rgb(10, 60, 105);
+  --bsDanger: rgb(255, 0, 0);
+  --bsWarning: rgb(250, 240, 35);
+  --bsInfo: rgb(10, 215, 255);
+  --bsSuccess: rgb(15, 180, 0);
+
+}
+
+
 .headerButtons {
   display: flex;
   justify-content: center;
@@ -11,22 +27,25 @@
   margin-bottom: 5px;
 }
 
-.myResume {
+.downloadResume {
   font-size: larger;
+  font-family: monospace;
+  justify-content: center;
+  text-decoration: none;
   color: white;
-  transition: 325ms;
-  padding: 5px;
   margin-bottom: 25px;
+  transition: 325ms;
 }
-.myResume:hover {
-  transform: scale(1.015);
-  color: aqua;
+.downloadResume:hover {
+  transform: scale(1.15);
+  font-weight: 600;
+  color: lightblue;
 }
 
 .portfolio-pic {
   border-radius: 50%;
   border-style: groove;
-  border-color: var(--light-blue);
+  border-color: var(--carolinaBlue);
   height: 160px;
   width: 160px;
 }
@@ -62,7 +81,7 @@
 .portfolio-links-livesite:hover, .portfolio-links-github:hover {
   transform: scale(1.15);
   color: white;
-  background-color: var(--blue);
+  background-color: var(--navyBlue);
 }
 
 .contact-info-container {
@@ -71,12 +90,13 @@
   text-align: center;
 }
 
-.contact-info-link {
+.contact-info-link, .contact-info-div {
   color: blueviolet;
+  transition: 325ms;
 }
 .contact-info-div:hover, .contact-info-link:hover {
   transform: scale(1.25);
-  color: rgb(45, 45, 193);
+  color: var(--smoke);
 }
 
 .contact-info-resume {
