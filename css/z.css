@@ -1,6 +1,6 @@
-  /* My Colors */
 
 :root {
+  /* My Colors */
   --offWhite: rgb(151, 149, 149);
   --smoke: rgb(240, 240, 240);
   --darkSmoke: rgb(35, 35, 40);
@@ -10,7 +10,6 @@
   --bsWarning: rgb(250, 240, 35);
   --bsInfo: rgb(10, 215, 255);
   --bsSuccess: rgb(15, 180, 0);
-
 }
 
 
@@ -25,21 +24,6 @@
   height: 100px;
   width: 100px;
   margin-bottom: 5px;
-}
-
-.downloadResume {
-  font-size: larger;
-  font-family: monospace;
-  justify-content: center;
-  text-decoration: none;
-  color: white;
-  margin-bottom: 25px;
-  transition: 325ms;
-}
-.downloadResume:hover {
-  transform: scale(1.15);
-  font-weight: 600;
-  color: lightblue;
 }
 
 .portfolio-pic {
