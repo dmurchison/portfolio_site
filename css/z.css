@@ -80,7 +80,7 @@
 }
 .contact-info-div:hover, .contact-info-link:hover {
   transform: scale(1.25);
-  color: var(--smoke);
+  color: var(--bsInfo);
 }
 
 .contact-info-resume {
