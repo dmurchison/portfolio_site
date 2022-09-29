@@ -1,2 +1,1 @@
-# portfolio_site
-My personal portfolio website
+# Ducnan Murchison
