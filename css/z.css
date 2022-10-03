@@ -48,7 +48,9 @@
 
 .portfolio-links-row2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
 
 .portfolio-links-livesite, .portfolio-links-github {
