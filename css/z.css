@@ -67,7 +67,7 @@
 .portfolio-links-livesite:hover, .portfolio-links-github:hover {
   transform: scale(1.15);
   color: white;
-  background-color: var(--navyBlue);
+  background-color: var(--darkSmoke);
 }
 
 .contact-info-container {
@@ -89,9 +89,6 @@
   font-size: x-large;
   margin-top: 5rem;
   margin-bottom: .5rem;
-}
-.btn btn-light btn-xl:hover {
-  transform: scale(2);
 }
 
 .contact-info-phone-number {
