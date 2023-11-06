@@ -1,1 +1,0 @@
-- I wasn't running into many bugs here due to the template.
