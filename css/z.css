@@ -71,7 +71,7 @@
 
 .contact-info-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 
