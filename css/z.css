@@ -1,7 +1,7 @@
 
 /* My Variables */
 :root {
-  --offWhite: rgb(151, 149, 149);
+  --offWhite: rgb(106, 104, 104);
   --smoke: rgb(240, 240, 240);
   --darkSmoke: rgb(35, 35, 40);
   --carolinaBlue: rgb(25, 145, 205);
@@ -11,6 +11,10 @@
   --bsSuccess: rgb(15, 180, 0);
 }
 
+.row.g-0 > .col-lg-4.col-sm-6 {
+  padding: 15px;
+  margin-left: 0; /* Reset any existing left margin */
+}
 
 .headerButtons {
   display: flex;
